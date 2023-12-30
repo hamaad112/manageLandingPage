@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* mobile menu */
+
+#mobile-menu{
+    max-height: 0;
+    transition: max-height 0.5s;
+    overflow: hidden;
+}
